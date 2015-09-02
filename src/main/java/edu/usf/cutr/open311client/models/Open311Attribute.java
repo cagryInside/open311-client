@@ -29,6 +29,7 @@ public class Open311Attribute {
   private String variable;
   private Integer code;
   private Boolean required;
+  private Boolean answer_kept_private;
   private String datatype_description;
   private String datatype;
   private Integer order;
@@ -97,5 +98,13 @@ public class Open311Attribute {
 
   public void setValues(List<Object> values) {
     this.values = values;
+  }
+
+  public Boolean getAnswer_kept_private() {
+    return answer_kept_private;
+  }
+
+  public void setAnswer_kept_private(Boolean answer_kept_private) {
+    this.answer_kept_private = answer_kept_private;
   }
 }

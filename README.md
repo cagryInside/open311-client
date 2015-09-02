@@ -1,3 +1,15 @@
 # open311-client
 
-Open311 client java wrapper.
+This is a java client to submit issues to Open311 GeoReport v2 compliant systems.
+
+### Features:
+
+* REST API design
+* Image submission
+* Compatible platforms:
+ * Java applications
+ * Android 
+	
+### Usage
+
+
